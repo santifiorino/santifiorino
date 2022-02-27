@@ -1,13 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat";
+  @apply bg-80s-white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Bugaki-Regular";
+  src: local("Bugaki-Regular"),
+    url(../public/fonts/Bugaki-Regular.otf) format("opentype");
+}
+
+.headerBlock {
+  @apply border-4 border-80s-black font-bugaki text-center;
+}
+
+.icono {
+  @apply text-white mx-3 text-4xl hover:text-80s-yellow;
+}
+
+.cuadradillos {
+  background-image: linear-gradient(
+      #bbbbbb 1.2000000000000002px,
+      transparent 1.2000000000000002px
+    ),
+    linear-gradient(
+      to right,
+      #bbbbbb 1.2000000000000002px,
+      #ffffff 1.2000000000000002px
+    );
+  background-size: 24px 24px;
+}
+
+.ajedrez {
+  background-color: #ffffff;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #241b20 25%,
+      transparent 25%,
+      transparent 75%,
+      #241b20 75%,
+      #241b20
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #241b20 25%,
+      #ffffff 25%,
+      #ffffff 75%,
+      #241b20 75%,
+      #241b20
+    );
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+}
+
+.bigParagraph {
+  font-family: "Montserrat";
+  @apply font-semibold text-xl text-justify;
+}
+
+.shadowBlock {
+  box-shadow: 9px 9px #c31719;
 }
