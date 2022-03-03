@@ -1,13 +1,13 @@
 export const paragraphs = [
   <div>
     <p>
-      Around two years ago I built my first personal portfolio (bottom pic).
-      This year looking at it I thought "it looks good, but it doesn't represent
-      me very well" which is the main goal. After some research I decided to
-      build this website inspired on Mondrian's work, and mixing it with some
-      80's graphic elements. I think this colorful design is more alive, and it
-      fits my style. If you're a developer you know it's also a harder style to
-      achieve, so it really shows what I'm capable of, the other main goal.
+      Around two years ago I built my first personal portfolio. This year
+      looking at it I thought "it looks good, but it doesn't represent me very
+      well" which is the main goal. After some research I decided to build this
+      website inspired on Mondrian's work, and mixing it with some 80's graphic
+      elements. I think this colorful design is more alive, and it fits my
+      style. If you're a developer you know it's also a harder style to achieve,
+      so it really shows what I'm capable of, the other main goal.
     </p>
   </div>,
   <div>

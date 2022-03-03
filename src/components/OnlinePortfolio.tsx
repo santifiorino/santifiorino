@@ -30,16 +30,16 @@ class OnlinePortfolio extends React.Component {
         <div className="headerBlock col-span-4 xl:col-span-3 bg-80s-red text-4xl sm:text-5xl p-4 text-white">
           online portfolio
         </div>
-        <div className="headerBlock col-span-4 xl:col-span-1">
+        <div className="headerBlock col-span-4 sm:col-span-1 sm:row-start-4 md:col-span-2 xl:col-span-1 xl:row-start-auto bg-80s-black">
           <img alt="new portfolio" src="./images/newPortfolioSS.png"></img>
         </div>
         <div className="headerBlock row-span-2 col-span-4 xl:col-span-2 bg-80s-blue bigParagraph p-7 text-white">
           {paragraphs[0]}
         </div>
-        <div className="headerBlock hidden xl:row-span-2 xl:block">
+        <div className="headerBlock hidden xl:block row-span-2 bg-80s-black">
           <img alt="piet mondrian" src="./images/mondrian.png"></img>
         </div>
-        <div className="headerBlock col-span-4 xl:col-span-1">
+        <div className="headerBlock col-span-4 sm:col-span-1 md:col-span-2 xl:col-span-1 xl:row-start-3 bg-80s-black">
           <img alt="old portfolio" src="./images/oldPortfolioSS.png"></img>
         </div>
         <div
@@ -59,10 +59,10 @@ class OnlinePortfolio extends React.Component {
             {paragraphs[1]}
           </div>
           <div className="headerBlock col-span-2 hidden xl:block">
-            <img src="./images/me.png" />
+            <img alt="santi fiorino" src="./images/me.png" />
           </div>
           <div className="headerBlock col-span-4 block xl:hidden">
-            <img src="./images/me_lg.png" />
+            <img alt="santi fiorino" src="./images/me_lg.png" />
           </div>
           <div className="headerBlock col-span-4 xl:col-span-2 bg-80s-blue text-white bigParagraph p-5">
             {paragraphs[2]}
