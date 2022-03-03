@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/santifiorino/static/css/main.804412aa.css",
-    "main.js": "/santifiorino/static/js/main.09cc7fb7.js",
+    "main.css": "/santifiorino/static/css/main.576e37ef.css",
+    "main.js": "/santifiorino/static/js/main.46f48e10.js",
     "static/js/787.a2cb61a6.chunk.js": "/santifiorino/static/js/787.a2cb61a6.chunk.js",
     "static/media/Bugaki-Regular.otf": "/santifiorino/static/media/Bugaki-Regular.e7b101f5966b2c57c7ee.otf",
     "index.html": "/santifiorino/index.html",
-    "main.804412aa.css.map": "/santifiorino/static/css/main.804412aa.css.map",
-    "main.09cc7fb7.js.map": "/santifiorino/static/js/main.09cc7fb7.js.map",
+    "main.576e37ef.css.map": "/santifiorino/static/css/main.576e37ef.css.map",
+    "main.46f48e10.js.map": "/santifiorino/static/js/main.46f48e10.js.map",
     "787.a2cb61a6.chunk.js.map": "/santifiorino/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.804412aa.css",
-    "static/js/main.09cc7fb7.js"
+    "static/css/main.576e37ef.css",
+    "static/js/main.46f48e10.js"
   ]
 }
